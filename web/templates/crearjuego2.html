@@ -1,0 +1,19 @@
+<html>
+<body>
+<head>
+    <meta charset="utf-8">
+    <title>crear</title>
+    <link href="static/css/crearjuego.css" rel="stylesheet" media="screen">
+</head>
+<h1>Crear juego</h1>
+<form method="post" action="">
+    <input class="input1" name="url" placeholder="URL" type="text" required=""><br>
+    <input class="input1" name="nombre" placeholder="Nombre del juego" type="text" required=""><br>
+    <input class="input1" name="tematica" placeholder="Tematica" type="text" required=""><br>
+    <input class="input1" name="descripcion" placeholder="Descripcion" type="text" required=""><br>
+    <input class="input1" name="rangoDeEdad" placeholder="Rango de edad" type="text" required=""><br>
+    <input class="input1" type="submit"><br>
+</form>
+<a href="{{ url_for('login') }}">Volver al menú</a>
+</body>
+</html>

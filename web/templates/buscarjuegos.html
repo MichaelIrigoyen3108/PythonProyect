@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>buscarjuegos</title>
+    <link href="static/css/buscarjuegos.css" rel="stylesheet" media="screen">
+
+</head>
+<body>
+<div>
+    <h1>Juegos disponibles para esta tematica</h1>
+
+</div>
+{{mensaje}}
+
+{% for juego in buscar_juegos %}
+<form method="post">
+    <div>
+
+        <a href="{{juego.URL}}">{{juego.NOMBRE}}</a>
+        <input type="submit" formaction="/borrar/{{juego.id}}" value="borrar juego">
+        <a href="/modificar/{{juego.id}}">Modificar juego</a><br>
+    </div>
+</form>
+{% endfor %}
+
+</body>
+</html>

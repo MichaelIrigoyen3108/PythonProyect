@@ -1,0 +1,46 @@
+h1 {
+	color: #48C9B0;
+	text-shadow: 2px 2px 2px black;
+	font-size: 2em;
+	font-family: cursive;
+	margin: 0em;
+	padding-left:;
+	transition: .5s;
+	text-align: center;
+	}
+
+
+h1:hover {
+	color: #2980B9;
+}
+
+form{
+	text-align: center;
+	border-radius: 1em;
+ 	margin: em;
+}
+
+.input1 {
+	padding-left: 3em;
+	padding-bottom: 1em;
+	padding: 1em;
+	margin: 1em;
+	border-radius: 1em;
+	box-shadow : 2px 2px 13px #A3E4D7;
+	transition: .8s;
+}
+
+.input1:hover {
+	color: black;
+}
+
+
+
+body {
+	background: #707B7C ;
+}
+
+p {
+color:black;
+font-size:2em;
+text-align:center;}

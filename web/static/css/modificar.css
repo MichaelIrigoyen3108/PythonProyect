@@ -1,0 +1,43 @@
+h1 {
+	text-align: center;
+	color: #E74C3C;
+	padding-top: 2em;
+	margin: 0em;
+	letter-spacing: .4em;
+	background:#212F3D;
+	border-radius:3em;
+}
+
+h1:hover {
+	color: #2980B9;
+}
+
+
+.input1 {
+
+	padding-left: 3em;
+	padding-bottom: 1em;
+	padding: 1em;
+	margin: .4em;
+	border-radius: 1em;
+	box-shadow : 2px 2px 13px #A3E4D7;
+	transition: .8s;
+
+}
+
+.input1:hover {
+	color: black;
+}
+
+div {
+    text-align:center;
+	border: 4em;
+	background:#58D68D;
+	margin: 1em;
+	transition-property:;
+	transition-duration: 1s;
+	position: 0;
+	border-radius:.5em;
+}
+
+

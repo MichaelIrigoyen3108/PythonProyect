@@ -1,0 +1,27 @@
+h1 {
+color:green;
+text-align:center;
+}
+
+h2 {
+color:#black;
+text-align:center;}
+
+div {
+}
+
+body {
+background:#green;
+}
+
+div {
+
+	padding-left: 4em;
+	padding-bottom: 1em;
+	padding: 1em;
+	margin: 1em;
+	border-radius: 1em;
+	box-shadow: 2px 2px 13px #A3E4D7;
+	transition: .8s;
+	color: ;
+}

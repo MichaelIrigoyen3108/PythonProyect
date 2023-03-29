@@ -1,0 +1,15 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>borrar juego</title>
+    <link href="static/css/borrarjuego.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<form method="post" action="/juego/{{borrar.id}}">
+    {% for juego in borrar_juego %}
+    <input name="Borrar_juego" value="{{borrar.ID}}" type="text" required>
+    <input type="submit">
+    {% endfor %}
+</form>
+</body>
+</html>
